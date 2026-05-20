@@ -2,7 +2,14 @@
 description: Open a GitLab Merge Request
 ---
 
-1. Use the `glab` command to read and understand issue "$1" (if any).
+A GitLab issue reference can optionally be provided as argument, here its value: $1
+When present, such value will follow one of these 2 formats:
+- <project_name>#<issue_number>
+- <group_name>/<project_name>#<issue_number>
+
+Following is the steps to perform.
+
+1. If a GitLab issue reference is provided, parse its value and use the `glab` command to fetch issue contents, then read and understand those.
 2. Look at the commits in the current branch that sit on top of the `main` branch.
 3. For each commit, read and understand both the message and the changes.
 4. Get a "big picture" understanding of the whole set of changes done in the current branch.
