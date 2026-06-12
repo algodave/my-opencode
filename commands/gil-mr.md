@@ -2,8 +2,10 @@
 description: Open a GitLab Merge Request
 ---
 
+The GitLab CLI tool is essential to perform this command. Request installation and abort the whole process when the `glab` command is not present and configured. Use the `find-docs` skill if you need help using the GitLab CLI.
+
 A GitLab issue reference can optionally be provided as argument, here its value: $1
-When present, such value will follow one of these 2 formats:
+When present, such value follows one of these 2 formats:
 - <project_name>#<issue_number>
 - <group_name>/<project_name>#<issue_number>
 
