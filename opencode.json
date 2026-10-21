@@ -22,6 +22,78 @@
             ]
           }
         }
+      },
+      "models": {
+        "dov/gpt-6-sol": {
+          "limit": { "context": 1050000, "input": 922000, "output": 128000 },
+          "capabilities": {
+            "tools": true,
+            "reasoning": { "supported": true, "effort": ["low", "medium", "high"] },
+            "temperature": false,
+            "input": ["text", "image", "pdf"],
+            "output": ["text"]
+          }
+        },
+        "dov/gpt-6.1-sol": {
+          "limit": { "context": 1050000, "input": 922000, "output": 128000 },
+          "capabilities": {
+            "tools": true,
+            "reasoning": { "supported": true, "effort": ["low", "medium", "high"] },
+            "temperature": false,
+            "input": ["text", "image", "pdf"],
+            "output": ["text"]
+          }
+        },
+        "algodave/gpt-6-sol": {
+          "limit": { "context": 1050000, "input": 922000, "output": 128000 },
+          "capabilities": {
+            "tools": true,
+            "reasoning": { "supported": true, "effort": ["low", "medium", "high"] },
+            "temperature": false,
+            "input": ["text", "image", "pdf"],
+            "output": ["text"]
+          }
+        },
+        "algodave/gpt-6.1-sol": {
+          "limit": { "context": 1050000, "input": 922000, "output": 128000 },
+          "capabilities": {
+            "tools": true,
+            "reasoning": { "supported": true, "effort": ["low", "medium", "high"] },
+            "temperature": false,
+            "input": ["text", "image", "pdf"],
+            "output": ["text"]
+          }
+        },
+        "algodave/gpt-6-astra": {
+          "limit": { "context": 1050000, "input": 922000, "output": 128000 },
+          "capabilities": {
+            "tools": true,
+            "reasoning": { "supported": true, "effort": ["low", "medium", "high"] },
+            "temperature": false,
+            "input": ["text", "image", "pdf"],
+            "output": ["text"]
+          }
+        },
+        "algodave/claude-haiku-5-5": {
+          "limit": { "context": 1000000, "output": 128000 },
+          "capabilities": {
+            "tools": true,
+            "reasoning": { "supported": true, "effort": ["low", "medium", "high"] },
+            "temperature": false,
+            "input": ["text", "image", "pdf"],
+            "output": ["text"]
+          }
+        },
+        "algodave/claude-sonnet-5-5": {
+          "limit": { "context": 1000000, "output": 128000 },
+          "capabilities": {
+            "tools": true,
+            "reasoning": { "supported": true, "effort": ["low", "medium", "high"] },
+            "temperature": false,
+            "input": ["text", "image", "pdf"],
+            "output": ["text"]
+          }
+        }
       }
     }
   }
